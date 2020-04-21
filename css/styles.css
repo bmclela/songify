@@ -1,0 +1,187 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings Section */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+.big-heading {
+  color: white;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #40e0d0;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Title Section */
+
+#title .container-fluid {
+  text-align: left;
+  padding: 3% 15% 7%;
+}
+
+.iphone-image {
+  transform: rotate(25deg);
+  display: block;
+  width: 60%;
+  margin: auto;
+  position: absolute;
+  right: 30%;
+}
+
+/* Navbar Section */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: 'Ubuntu';
+  font-weight: bold;
+}
+
+.download-button {
+  margin: 5% 3% 0;
+}
+
+/* Features Section */
+
+#features {
+  padding: 50px 10%;
+  position: relative;
+}
+
+.feature-icon {
+  color: #633a82;
+  margin-bottom: 20px;
+}
+
+.feature-icon:hover {
+  color: #40e0d0;
+}
+
+.feature-text {
+  color: #8f8f8f;
+}
+
+.feature-box {
+  margin: 60px 0;
+}
+
+.feature-title {
+  line-height: 1.5;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+  background-color: #633a82;
+}
+
+.testimonial-image {
+  margin: 20px;
+  width: 10%;
+  border-radius: 100%;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Press Section */
+
+#press {
+  background-color: #633a82;
+  margin-bottom: 3%;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Call to Action Section */
+
+#cta {
+  padding: 10% 7%;
+}
+
+/* Footer Section */
+
+.media-icon {
+  margin: 10px;
+}
+
+/* Media Queries Section */
+
+@media (max-width: 1028px) {
+  #title .container-fluid {
+    text-align: center;
+  }
+  .iphone-image {
+    margin-top: 40px;
+    position: static;
+    transform: rotate(0);
+  }
+}
